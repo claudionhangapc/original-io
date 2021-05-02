@@ -1,0 +1,143 @@
+/*
+* Reset Padrão
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/*
+* Estilo do header
+*/
+
+.header-logo{
+  padding-top: 26px;
+  padding-bottom: 26px;
+  display: flex;
+  justify-content: center;
+}
+.header-logo img{
+  height: 34px;
+  width: 148px;
+}
+.header-menu{
+  border-top:1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.header-menu{
+
+}
+.header-menu-container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding:9px 40px 5px 40px;
+  
+}
+.header-menu-container nav{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.header-menu-container nav ul{
+  display: flex;
+}
+.header-menu-container-sign a{
+  padding: 10px 20px;
+}
+.header-menu-container-main{
+  display: flex;
+  justify-content: center;
+  max-width: 754px;
+}
+.header-menu-container-main li a{
+  padding: 10px 25px;
+}
+.header-menu-container-last{
+  display: flex;
+}
+.ele-font-style{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 1.4625;
+  color:#686868;
+}
+
+.ele-font-style-b{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.4285;
+  color:#686868;
+}
+
+.header-menu-container-last input{
+  width: 83px;
+  border:none;
+  border-bottom: 1px solid #686868;
+  padding-bottom: 7px;
+  padding-right: 5px;
+}
+.header-menu-container-last > div{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-busca{
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  top:-5px;
+  left:0;
+}
+.div-margin{
+  margin-right: 30px;
+}
+.header-menu-container-last input:-moz-placeholder {
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 1.4625;
+  color:#686868;
+}
+.header-menu-container-last input:-ms-input-placeholder {
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 1.4625;
+  color:#686868;
+}
+.header-menu-container-last input::-webkit-input-placeholder {
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 1.4625;
+  color:#686868;
+}
+.box-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-item img{
+  height: 24px;
+  width: 27px;
+}
+.count-item{
+  align-self: flex-end;
+  font-size: 12px;
+  line-height: 1.4625;
+  color:#686868;
+  margin-left: 4px;
+  margin-bottom: -3px;
+}
+.heder-margin-left{
+  margin-left: 20px;
+}
